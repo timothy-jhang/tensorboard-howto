@@ -6,7 +6,7 @@ tensorflow - how to utilize tensorboard 텐서보드 잘 사용하기
 % tensorboard --logdir ./cifar10_train --port 8080
 
 ------------------------------------------------------------
-# tensorboard로 summary들 보기, 웹브라우저 사용해서 봄. 
+# tensorboard로 summary들 보기, tensorboard의 클라이언트는 웹브라우저이며, 웹브라우저로 summary를 봄. 
 127.0.0.1:6006  포트를 8080으로 바꾸었다면,  127.0.0.1:8080  을 url 주소로 브라우저에 입력함.
 
 -------------------------------------------------------------
