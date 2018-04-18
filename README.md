@@ -38,4 +38,5 @@ tensorflow - how to utilize tensorboard 텐서보드 잘 사용하기
 # tensor 값들은 직접 보여주기 어려우니까, tf.as_string( )을 사용해서 스트링으로 변환한 후에, tf.summary.text()로 summary에 추가
    tf.summary.text(name="labels",tensor=tf.as_string(labels))
    
-   
+# tensorboard 사용하는 기초적인 예제    
+https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/4_Utils/tensorboard_basic.py
